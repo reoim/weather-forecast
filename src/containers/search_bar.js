@@ -17,7 +17,6 @@ export class SearchBar extends Component {
 
 	// all event handler function like on change, on click, on hover come along with event object
 	onInputChange(event) {
-		console.log(event.target.value);
 		this.setState({ term: event.target.value });
 	}
 
